@@ -1,14 +1,18 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(void)
-{
-   /// VARIÁVEIS
-   int i;
+int main(void){
+    /// VARIÁVEIS
+    int tempo, x;
 
-   /// DESENVOLVIMENTO
-   for(i = 0; i < 256; i++)
-   {
-      printf("%d %c\n", i, i);
-   }
-   return 0;
+
+    /// DESENVOLVIMENTO
+    printf ("Insira o valor \n");
+    scanf ("%i", &tempo);
+
+    while (tempo > 0){
+          printf ("%i \n", tempo);
+          tempo = tempo - 1;
+    }
+
+ return 0;
 }
