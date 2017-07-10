@@ -13,8 +13,5 @@ int main(){
    else {
      printf ("O valor é primo") ;
    }
-
-
-
   return 0;
 }
